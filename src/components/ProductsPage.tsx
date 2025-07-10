@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ProductCard from './ProductCard';
-import { products, getProductsByCategory } from '../data/products';
+import {  getProductsByCategory } from '../data/products';
 
 const ProductsPage = () => {
   const [selected, setSelected] = useState('All');
